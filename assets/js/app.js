@@ -79,7 +79,7 @@ document.querySelector('.topbox').style.backgroundColor = "orange"
 document.querySelector('.topbox').style.width = "400px"
 document.querySelector('.topbox').style.height = "200px"
 document.querySelector('.topbox').style.display = "flex"
-document.querySelector('.topbox').style.justifyContent= "center"
+document.querySelector('.topbox').style.justifyContent = "center"
 
 
 // 
@@ -91,4 +91,11 @@ document.querySelector('h1').style.textAlign = "center"
 document.querySelector('h1').style.display = "flex"
 document.querySelector('h1').style.alignItems = "center"
 
+// 
 
+const para_1 = document.createElement("h2");
+para_1.innerText = "THIS IS A PARAGRAPH"
+para_1.style.backgroundColor = 'skyblue'
+para_1.style.padding = '25px'
+para_1.style.fontFamily = "Impact,sans-serif"
+document.body.appendChild(para_1);
