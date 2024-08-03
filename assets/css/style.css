@@ -1,0 +1,6 @@
+.centerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+}
